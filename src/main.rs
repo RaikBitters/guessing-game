@@ -8,8 +8,7 @@ fn main() {
     let secret_number = rand::thread_rng().gen_range(1,101);
 
     // For testing.
-    // TODO Delete in the end.
-    println!("The secret number is: {}", secret_number);
+    //println!("The secret number is: {}", secret_number);
     
     loop {
         println!("Please input your guess.");
